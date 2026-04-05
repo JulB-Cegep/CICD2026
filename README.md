@@ -240,9 +240,13 @@ Les secrets permettent de stocker des informations sensibles (mots de passe, tok
 ### 8.1. Créer un token Docker Hub
 
 1. Connecte-toi à **Docker Hub**.
-2. Va dans **Account Settings → Security**.
-3. Crée un **Access Token**.
-4. Copie ce token pour l'utiliser plus tard (tu ne pourras plus le revoir après, donc copie le dans un fichier txt).
+2. Va dans **Account Settings ** dans le coin droit sur l'avatar de ton compte.
+3. Aller sur Personal acces tokents dans le menu et cliquez sur Generate new token.
+###3.1. Entrer un les informations demandées comme ceci :
+<br><br>
+<img width="664" height="401" alt="image" src="https://github.com/user-attachments/assets/2839f9e6-1a6f-46c5-bc0b-c85213f37f66" />
+<br><br>
+5. Copie ce token pour l'utiliser plus tard (tu ne pourras plus le revoir après, donc copie le dans un fichier txt).
 
 ### 8.2. Ajouter les secrets dans ton dépôt GitHub
 
