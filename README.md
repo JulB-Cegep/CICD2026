@@ -62,7 +62,7 @@ Avant de commencer, tu dois avoir :
 - Un **compte Docker Hub**.
 - L’accès à la **VM control-plane** du cluster k3s (avec VS Code).
 - Un **kubeconfig** fourni par ton enseignant (sous forme de texte) qui permet au pipeline de déployer sur le cluster.
-- Avoir lu : 
+- Avoir lu : [Voir la documentation sur Git](Git.md)
 
 ---
 
