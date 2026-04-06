@@ -125,7 +125,7 @@ Puis, dans le navigateur de la VM, test cette url.
 
 ### 6.1. Vérifier le Dockerfile
 
-Ouvre le fichier `Dockerfile` à la racine du projet. Il devrait ressembler à ceci avec des commentaires pour votre compréhension:
+Ouvre le fichier `Dockerfile` à la racine du projet. Il devrait ressembler à ceci avec des commentaires pour aider à votre compréhension :
 
 ```Dockerfile
 FROM node:18-alpine
