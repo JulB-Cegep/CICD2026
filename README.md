@@ -444,9 +444,9 @@ sudo groupadd docker
 docker build -t dockerhub_username/hello-app:dev .
 docker push dockerhub_username/hello-app:dev
 ```
-<br>
 - Faire un déploiement initial sur K3S sur le namespace de dev
-- Faite une nouvelle version du fichier deploiyement.yaml et changer la variable DOCKER_HUB_ pour la valeur.
+- Faite une nouvelle version du fichier deploiyement.yaml
+- Changer la variable DOCKER_HUB_ pour la valeur.
 - kubectl apply -f deploiyement.yaml
 
 ---
