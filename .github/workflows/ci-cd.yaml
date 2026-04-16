@@ -72,7 +72,6 @@ jobs:
            echo "K8S_ENV=prod" >> $GITHUB_OUTPUT
           else
             echo "K8S_ENV=${GITHUB_REF_NAME}" >> $GITHUB_OUTPUT
-          fi
 
           #echo "K8S_ENV=${GITHUB_REF_NAME}" >> $GITHUB_OUTPUT
 
