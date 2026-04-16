@@ -63,12 +63,10 @@ jobs:
       #   qa   -> tag qa   -> namespace qa
       #   main -> tag prod -> namespace prod
       # ------------------------------------------------------------
-         
       - name: Set image tag based on branch
         id: vars
         run: |
           echo "TAG=${GITHUB_SHA::7}" >> $GITHUB_OUTPUT
-#          echo "K8S_ENV=${GITHUB_REF_NAME}" >> $GITHUB_OUTPUT
           echo "K8S_ENV=prod" >> $GITHUB_OUTPUT
 
       # ------------------------------------------------------------
