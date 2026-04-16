@@ -63,7 +63,7 @@ jobs:
       #   qa   -> tag qa   -> namespace qa
       #   main -> tag prod -> namespace prod
       # ------------------------------------------------------------
-         
+
       - name: Set image tag based on branch
         id: vars
         run: |
