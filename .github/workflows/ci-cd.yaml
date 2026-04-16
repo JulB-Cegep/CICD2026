@@ -72,7 +72,7 @@ jobs:
            echo "K8S_ENV=prod" >> $GITHUB_OUTPUT
           else
             echo "K8S_ENV=${GITHUB_REF_NAME}" >> $GITHUB_OUTPUT
-         fi
+          fi
 
       # ------------------------------------------------------------
       # Étape 5 : Construire et pousser l'image Docker
