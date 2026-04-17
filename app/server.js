@@ -1,7 +1,7 @@
 const http = require('http');
 
 const PORT = process.env.PORT || 3000;
-const ENV = process.env.APP_ENV || 'qa';
+const ENV = process.env.APP_ENV || 'dev';
 
 const messages = {
   dev: "Hello de l'environnement de DEV",
@@ -9,7 +9,7 @@ const messages = {
   prod: "Hello de l'environnement de PROD",
 };
 
-const message = messages[ENV] || 'Bienvenue dans la QA';
+const message = messages[ENV] || 'Hello World';
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
@@ -19,3 +19,4 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log(`Server running on port ${PORT} – ${message}`);
 });
+
